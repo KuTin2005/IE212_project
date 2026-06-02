@@ -1,0 +1,13 @@
+# Chặn môi trường ảo của Streamlit
+App_Streamlit/venv/
+__pycache__/
+*.pyc
+
+# Chặn toàn bộ dữ liệu thô và dữ liệu Hadoop Docker
+data/
+hadoop_data/
+.ipynb_checkpoints/
+
+# Chặn TUYỆT ĐỐI các file trọng số mô hình ở bất kỳ thư mục nào
+*.keras
+*.h5
