@@ -16,7 +16,6 @@ IE212_project/
 ├── hadoop_data/                # Vùng lưu trữ vật lý của Hadoop DataNodes 
 ├── docker-compose.yml          # Cấu hình khởi tạo cụm Docker Container (HDFS & Spark)
 ├── hadoop.env                  # File cấu hình môi trường cho hệ sinh thái Hadoop
-├── requirements.txt            # Danh sách ghim cứng phiên bản các thư viện hệ thống
 └── .gitignore                  # Bộ lọc tự động chặn các tệp tin rác và file dữ liệu nặng
 ```
 
