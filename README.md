@@ -34,7 +34,7 @@ python -m venv .venv
 # Kích hoạt môi trường (Windows only)
 .venv\Scripts\activate
 # Cài đặt thư viện để chạy dự án
-pip install -r requirements.txt
+pip install streamlit keras torch torchvision numpy pandas pillow
 ```
 ### 3. Cấu hình và khởi động Docker HDFS
 Tải docker desktop về máy tính, chạy các lệnh sau ở project đã git clone về:
